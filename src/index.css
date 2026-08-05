@@ -1,0 +1,196 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts loaded in index.html */
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 20%;
+
+    --card: 60 20% 97%;
+    --card-foreground: 0 0% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 20%;
+
+    --primary: 0 0% 20%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 40 20% 91%;
+    --secondary-foreground: 0 0% 20%;
+
+    --muted: 60 20% 97%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 40 20% 91%;
+    --accent-foreground: 0 0% 20%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 40 15% 88%;
+    --input: 40 15% 88%;
+    --ring: 0 0% 20%;
+
+    --radius: 0.5rem;
+
+    /* Custom tokens */
+    --color-offwhite: 60 20% 97%;
+    --color-beige: 40 20% 91%;
+    
+    --shadow-sm: 0 1px 2px hsl(0 0% 0% / 0.03);
+    --shadow-md: 0 4px 12px hsl(0 0% 0% / 0.05);
+    --shadow-lg: 0 8px 30px hsl(0 0% 0% / 0.08);
+
+    --font-display: 'Bebas Neue', sans-serif;
+    --font-body: 'Inter', sans-serif;
+
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 0 0% 6%;
+    --foreground: 0 0% 98%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    letter-spacing: 0.03em;
+  }
+}
+
+@layer components {
+  .section-offwhite {
+    background-color: hsl(var(--color-offwhite));
+  }
+
+  .section-beige {
+    background-color: hsl(var(--color-beige));
+  }
+
+  .elegant-card {
+    @apply bg-background rounded-sm p-8 border border-border/30 transition-all duration-500 hover:border-border;
+  }
+
+  .elegant-card-filled {
+    @apply bg-card rounded-sm p-8 transition-all duration-500;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+  }
+
+  .animate-fade-in-delay-1 {
+    animation: fadeIn 0.8s ease-out 0.2s forwards;
+    opacity: 0;
+  }
+
+  .animate-fade-in-delay-2 {
+    animation: fadeIn 0.8s ease-out 0.4s forwards;
+    opacity: 0;
+  }
+
+  .animate-fade-in-delay-3 {
+    animation: fadeIn 0.8s ease-out 0.6s forwards;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@layer components {
+  .bento-card {
+    @apply bg-card rounded-2xl p-6 border border-border/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+
+  .bento-card-dark {
+    @apply bg-foreground text-background rounded-2xl p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+
+  .accent-badge {
+    @apply inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 text-sm font-medium;
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-primary);
+  }
+
+  .stat-number {
+    @apply font-serif italic text-5xl md:text-6xl font-medium;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.6s ease-out forwards;
+  }
+
+  .animate-fade-in-delay-1 {
+    animation: fadeIn 0.6s ease-out 0.15s forwards;
+    opacity: 0;
+  }
+
+  .animate-fade-in-delay-2 {
+    animation: fadeIn 0.6s ease-out 0.3s forwards;
+    opacity: 0;
+  }
+
+  .animate-fade-in-delay-3 {
+    animation: fadeIn 0.6s ease-out 0.45s forwards;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

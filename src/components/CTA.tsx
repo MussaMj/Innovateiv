@@ -37,7 +37,7 @@ const CTA = () => {
             transition={{ duration: 0.5, delay: 0.3 }}
           >
             <Button variant="dark" size="lg" className="min-w-[220px]" asChild>
-              <a href="mailto:mussajunior401@gmail.com">
+              <a href="mailto:innovateiv.crft@gmail.com">
                 {t('cta.button')}
                 <ArrowRight className="w-4 h-4 ml-2" />
               </a>

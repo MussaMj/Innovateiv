@@ -34,7 +34,7 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button variant="dark" size="lg" className="min-w-[200px]" asChild>
-              <a href="mailto:mussajunior401@gmail.com">
+              <a href="mailto:innovateiv.crft@gmail.com">
                 {t('hero.cta.start')}
                 <ArrowRight className="w-4 h-4 ml-2" />
               </a>

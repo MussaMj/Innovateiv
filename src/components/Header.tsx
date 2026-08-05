@@ -34,7 +34,7 @@ const Header = () => {
           <div className="hidden md:flex items-center gap-4">
             <LanguageSwitcher />
             <Button variant="dark" size="sm" asChild>
-              <a href="mailto:mussajunior401@gmail.com">{t('nav.contact')}</a>
+              <a href="mailto:innovateiv.crft@gmail.com">{t('nav.contact')}</a>
             </Button>
           </div>
 
@@ -65,7 +65,7 @@ const Header = () => {
                 {t('nav.process')}
               </a>
               <Button variant="dark" className="mt-4 w-fit" asChild>
-                <a href="mailto:mussajunior401@gmail.com">{t('nav.contact')}</a>
+                <a href="mailto:innovateiv.crft@gmail.com">{t('nav.contact')}</a>
               </Button>
             </div>
           </div>

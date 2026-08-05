@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
           <div className="text-center">
             <p className="text-xs tracking-widest text-muted-foreground mb-2">{t('footer.email')}</p>
-            <p className="text-lg">mussajunior401@gmail.com</p>
+            <p className="text-lg">innovateiv.crft@gmail.com</p>
           </div>
         </div>
 

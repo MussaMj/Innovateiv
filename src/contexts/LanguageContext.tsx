@@ -15,7 +15,7 @@ const translations = {
     'nav.about': 'Sobre',
     'nav.process': 'Processo',
     'nav.contact': 'Contactar',
-    
+
     // Hero
     'hero.subtitle': 'Digital Studio',
     'hero.title1': 'CRIAMOS EXPERIÊNCIAS',
@@ -26,7 +26,7 @@ const translations = {
     'hero.card.web': 'WEB DEVELOPMENT',
     'hero.card.app': 'APP DEVELOPMENT',
     'hero.card.ui': 'UI/UX DESIGN',
-    
+
     // Services
     'services.subtitle': 'Serviços',
     'services.title1': 'SOLUÇÕES DIGITAIS',
@@ -37,7 +37,7 @@ const translations = {
     'services.ui.description': 'Interfaces elegantes e intuitivas que encantam utilizadores e comunicam a essência da sua marca.',
     'services.app.title': 'App Development',
     'services.app.description': 'Aplicações móveis nativas e híbridas com experiências fluidas e performance impecável.',
-    
+
     // Benefits
     'benefits.subtitle': 'Porquê Nós',
     'benefits.title1': 'PARCEIROS NO SEU',
@@ -51,7 +51,7 @@ const translations = {
     'benefits.3.description': 'Utilizamos as melhores ferramentas e práticas do mercado.',
     'benefits.4.title': 'Suporte Contínuo',
     'benefits.4.description': 'Acompanhamento dedicado antes, durante e após o lançamento.',
-    
+
     // Process
     'process.subtitle': 'Processo',
     'process.title1': 'SIMPLES E',
@@ -64,19 +64,19 @@ const translations = {
     'process.3.description': 'Criamos interfaces visuais elegantes e centradas no utilizador.',
     'process.4.title': 'Desenvolvimento',
     'process.4.description': 'Construímos com código limpo, performante e escalável.',
-    
+
     // CTA
     'cta.subtitle': 'Próximo Passo',
     'cta.title1': 'VAMOS CRIAR ALGO',
     'cta.title2': 'EXTRAORDINÁRIO',
     'cta.description': 'Agende uma conversa e descubra como podemos transformar a sua visão em realidade.',
     'cta.button': 'Fale Connosco',
-    
+
     // Footer
     'footer.tagline': 'Transformamos ideias em experiências digitais memoráveis.',
     'footer.location': 'MAPUTO',
     'footer.email': 'EMAIL',
-    'footer.copyright': 'Innovateiv – Soluções Digitais em Portugal.',
+    'footer.copyright': 'Innovateiv – Soluções Digitais em Moçambique.',
     'footer.terms': 'Termos & Privacidade',
   },
   en: {
@@ -85,7 +85,7 @@ const translations = {
     'nav.about': 'About',
     'nav.process': 'Process',
     'nav.contact': 'Contact',
-    
+
     // Hero
     'hero.subtitle': 'Digital Studio',
     'hero.title1': 'WE CREATE DIGITAL',
@@ -96,7 +96,7 @@ const translations = {
     'hero.card.web': 'WEB DEVELOPMENT',
     'hero.card.app': 'APP DEVELOPMENT',
     'hero.card.ui': 'UI/UX DESIGN',
-    
+
     // Services
     'services.subtitle': 'Services',
     'services.title1': 'COMPLETE DIGITAL',
@@ -107,7 +107,7 @@ const translations = {
     'services.ui.description': 'Elegant and intuitive interfaces that delight users and communicate your brand essence.',
     'services.app.title': 'App Development',
     'services.app.description': 'Native and hybrid mobile applications with fluid experiences and flawless performance.',
-    
+
     // Benefits
     'benefits.subtitle': 'Why Us',
     'benefits.title1': 'PARTNERS IN YOUR',
@@ -121,7 +121,7 @@ const translations = {
     'benefits.3.description': 'We use the best tools and practices in the industry.',
     'benefits.4.title': 'Continuous Support',
     'benefits.4.description': 'Dedicated support before, during, and after launch.',
-    
+
     // Process
     'process.subtitle': 'Process',
     'process.title1': 'SIMPLE AND',
@@ -134,14 +134,14 @@ const translations = {
     'process.3.description': 'We create elegant, user-centered visual interfaces.',
     'process.4.title': 'Development',
     'process.4.description': 'We build with clean, performant, and scalable code.',
-    
+
     // CTA
     'cta.subtitle': 'Next Step',
     'cta.title1': "LET'S CREATE SOMETHING",
     'cta.title2': 'EXTRAORDINARY',
     'cta.description': 'Schedule a conversation and discover how we can turn your vision into reality.',
     'cta.button': 'Get in Touch',
-    
+
     // Footer
     'footer.tagline': 'We transform ideas into memorable digital experiences.',
     'footer.location': 'MAPUTO',

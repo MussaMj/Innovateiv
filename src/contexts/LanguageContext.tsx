@@ -146,7 +146,7 @@ const translations = {
     'footer.tagline': 'We transform ideas into memorable digital experiences.',
     'footer.location': 'MAPUTO',
     'footer.email': 'EMAIL',
-    'footer.copyright': 'Innovateiv – Digital Solutions in Portugal.',
+    'footer.copyright': 'Innovateiv – Digital Solutions in Mozambique.',
     'footer.terms': 'Terms & Privacy',
   },
 };
